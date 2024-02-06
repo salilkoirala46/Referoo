@@ -10,6 +10,10 @@ Follow the steps below to set up and run the project on your local machine:
 git clone https://github.com/salilkoirala46/Referoo.git
 cd referoo
 
+Run Composer update
+Run cp .env.example. .env
+Run php artisan key:generate
+
 Run Laravel Server (Mac):
 
 bash
