@@ -7,8 +7,8 @@ Follow the steps below to set up and run the project on your local machine:
 
     bash
 
-git clone https://github.com/your-username/refereoo.git
-cd refereoo
+git clone https://github.com/salilkoirala46/Referoo.git
+cd referoo
 
 Run Laravel Server (Mac):
 
@@ -17,7 +17,7 @@ bash
     sudo php artisan serve --port=80
 
     Access the Application:
-    Open your web browser and go to https://localhost/refereoo
+    Open your web browser and go to https://localhost/referoo
 
     Login:
     Fill out your username and password on the login page.
@@ -31,7 +31,7 @@ Project Structure
         CandidateController.php - Manages candidate-related actions.
 
     Middleware:
-        Middleware created to test API endpoints with an access_token.
+        AccessTokenMiddleware.php Middleware created to test API endpoints with an access_token.
 
     Routes:
         Routes have been defined to handle different functionalities.
