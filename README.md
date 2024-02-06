@@ -1,22 +1,16 @@
 Welcome to the Refereoo project! This project is a candidate management system built using Laravel.
 Getting Started
 
-Follow the steps below to set up and run the project on your local machine:
+Follow the steps below to set up and run the project on your local machine cli:
 
-    Clone the Project:
-
-    bash
-
-git clone https://github.com/salilkoirala46/Referoo.git
-cd referoo
-
-Run Composer update
-Run cp .env.example. .env
-Run php artisan key:generate
+    Clone the Project: git clone https://github.com/salilkoirala46/Referoo.git
+    cd referoo
+    Composer update
+    cp .env.example. .env
+    php artisan key:generate
 
 Run Laravel Server (Mac):
 
-bash
 
     sudo php artisan serve --port=80
 
